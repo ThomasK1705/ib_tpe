@@ -48,6 +48,7 @@ public class ListQueue implements IQueue {
 		
 		if (queue.size() < capacity) {
 			queue.addLast((ListNode)obj); // Is allowed because of the restriction mentioned in the worksheet.
+			// Besser mit instance of als mit casten. Wenn nicht instance of ListNode dann return false;
 			return true;
 		} else if (!overflown) { // Is queue full and not overflown yet?
 			overflown = true;

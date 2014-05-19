@@ -20,6 +20,7 @@ public class ListStack implements IStack {
 	}
 	
 	@Override
+	// TODO getter Funktionen klar deklarieren
 	public int capacity() {
 		return capacity;
 	}

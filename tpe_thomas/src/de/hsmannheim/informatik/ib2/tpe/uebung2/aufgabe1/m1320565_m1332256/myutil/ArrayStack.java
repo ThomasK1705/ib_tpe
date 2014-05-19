@@ -11,7 +11,7 @@ public class ArrayStack implements IStack {
 	private boolean overflown;
 
 	public ArrayStack() {
-		this(0);
+		// this(0);
 	}
 
 	public ArrayStack(int capacity) {

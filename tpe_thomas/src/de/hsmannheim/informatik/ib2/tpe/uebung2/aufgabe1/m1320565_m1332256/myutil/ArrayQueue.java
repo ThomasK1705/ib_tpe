@@ -21,7 +21,7 @@ public class ArrayQueue implements IQueue {
 	private boolean overflown;
 
 	public ArrayQueue() {
-		this(0);
+		 this(0);
 	}
 
 	public ArrayQueue(int capacity) {
